@@ -29,20 +29,17 @@ for i in range(1,11):
 # found then it should print that as well.
 print("\nExercise 3\n")
 month_list = ["January", "February", "March", "April", "May"]
-expense_list = [2340, 2500, 2100, 3100, 2980]
-e = input("Enter expense amount: ")
-e = int(e)
-
+exp = [2340, 2500, 2100, 3100, 2980]
+e = int(input('Введите число'))
 month = -1
-for i in range(len(expense_list)):
-    if e == expense_list[i]:
+for i in range(len(exp)):
+    if e == exp[i]:
         month = i
         break
-
 if month != -1:
-    print(f'You spent {e} in {month_list[month]}')
+    print('You spent', e , 'in', month_list[month])
 else:
-    print(f'You didn\'t spend {e} in any month')
+    print("You didn't spend" , e ,'in any month')
 
 # 4. Lets say you are running a 5 km race. Write a program that,
 #    1. Upon completing each 1 km asks you "are you tired?"
