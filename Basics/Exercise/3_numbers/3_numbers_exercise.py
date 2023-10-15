@@ -1,10 +1,13 @@
 # Exercise
 # 1. You have a football field that is 92 meter long and 48.8 meter wide. Find out total
 #    area using python and print it
+
+
+
 length=92
 width=48.8
 area=length*width
-print("area of football field:",area) # Ans: 4489.599999999999
+print(area) 
 
 # 2. You bought 9 packets of potato chips from a store. Each packet costs 1.49 dollar
 #    and you gave shopkeeper 20 dollar.
